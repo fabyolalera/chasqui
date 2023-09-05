@@ -15,6 +15,9 @@ body{
     text-shadow: 2px 2px 5px rgb(151, 67, 8);
     color: rgb(242, 216, 173) !important;
 }
+.letra3{
+    color: rgb(151, 67, 8) !important;
+}
 .btn-desc{
     background-color: rgb(242, 216, 173)!important;
     border: rgb(151, 67, 8) 2px solid !important;
