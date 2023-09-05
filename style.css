@@ -38,3 +38,21 @@ body{
     text-align: center;
    
 }
+/* Estilos para el botón */
+.boton-img {
+    display: inline-block;
+    width: 170px; /* Ajusta el ancho deseado */
+    height: 50px; /* Ajusta la altura deseada */
+   /* padding: 10px 20px; /* Ajusta el espaciado interno según sea necesario */
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el color de fondo */
+}
+
+/* Cambio de color de fondo al pasar el mouse por encima */
+.boton-img:hover {
+    background-color: rgba(242, 216, 173, 0.3); /* Cambia a un color diferente al pasar el mouse */
+}
