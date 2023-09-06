@@ -56,3 +56,10 @@ body{
 .boton-img:hover {
     background-color: rgba(242, 216, 173, 0.3); /* Cambia a un color diferente al pasar el mouse */
 }
+#map{
+    width: 80%; /* Ancho deseado para el mapa */
+    height: 400px; /* Altura deseada para el mapa */
+    margin: 0 auto; /* Margen automático horizontal para centrar */
+    border: rgb(151, 67, 8) 2px solid; 
+}
+
