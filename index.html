@@ -169,6 +169,7 @@
             </div>
         </div>
 
+        <h3 class="py-3" style="text-align: center; color:rgb(151, 67, 8)"> Puntos de interés cultural</h3>
         <div id="map" ></div>
 
 
@@ -229,10 +230,10 @@
 
 //fin prueba
 
-
+ 
             // Coordenadas de la ubicación del marcador
-           var marcadorLatitud = -24.184340871788724;
-            var marcadorLongitud = -65.3082989338169;
+           var marcadorLatitud = -24.183948285334488;
+            var marcadorLongitud = -65.30707147579638;
            
             // Crear un marcador y agregarlo al mapa
             var marcador = L.marker([marcadorLatitud, marcadorLongitud]).addTo(map);
@@ -244,15 +245,15 @@
                     // Muestra una pregunta emergente
                     L.popup()
                         .setLatLng([marcadorLatitud, marcadorLongitud])
-                        .setContent("¿Pregunta relacionada con el POI?")
+                        .setContent("Pregunta de interés cultural")
                         .openOn(map);
                 }
             });
 
 
             // Definir las coordenadas del POI y la pregunta correcta
-            var poiLatitud = -24.184340871788724;
-            var poiLongitud = -65.3082989338169;
+            var poiLatitud = -24.183948285334488;
+            var poiLongitud = -65.30707147579638;
             var preguntaCorrecta = "1958"; // La respuesta correcta
 
             // Crear un marcador para el POI
